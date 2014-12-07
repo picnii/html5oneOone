@@ -1,0 +1,89 @@
+body
+{
+	font-family: tahoma, sans-serif;
+	background: #ddd;
+	padding-top: 55px;
+	padding-bottom: 20px;
+}
+
+nav.menu
+{
+	position: fixed;
+	height:55px;
+	width: 100%;
+	background: #111;
+	top:0px;
+	left:0px;
+	
+	z-index: 10;
+}
+nav.menu a.logo
+{
+	padding: 0px;
+}
+nav.menu .logo span
+{
+	color: white;
+	display: block;
+	font-size: 1.2em;
+	padding: 20px;
+}
+
+nav.menu > ul > li
+{
+	display: inline;
+}
+
+nav.menu  a
+{
+	text-decoration: none;
+	color: white;
+	padding:20px;
+}
+
+nav.menu > ul > li a:hover
+{
+	background: #222
+}
+
+
+footer.footer
+{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 0.5em;
+	color: #333;
+}
+
+footer.footer a
+{
+	text-decoration: none;
+	color: black;
+}
+
+footer.footer a:visited{
+	color: black;
+}
+
+
+section.wrapper
+{
+	width: 900px;
+	min-height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	background: white;
+	border-radius: 10px;	
+	box-shadow: 0px 0px 10px rgba(0,0,0, 0.5);
+}
+
+div.content
+{
+	padding: 10px;
+}
+
+input[type="text"]
+{
+	width: 99.5%;
+	font-size: 1.2em;
+}
